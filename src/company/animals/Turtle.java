@@ -1,7 +1,9 @@
-package animals;
+package company.animals;
 
-public class Turtle extends Animals{
+import company.Animals;
+
+public class Turtle extends Animals {
     public void swim(){
-        System.out.println("The slowest animal");
+        System.out.println("The slowest animal Turtle");
     }
 }
