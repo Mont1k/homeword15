@@ -1,3 +1,5 @@
+package company;
+
 public class Animals {
     void method(){
         System.out.println("AnimalsMethod");
@@ -5,9 +7,8 @@ public class Animals {
 
     @Override
     public String toString() {
-        return "Animals{}";
+        return "company.Animals{}";
     }
 
-    public Animals() {
-    }
+
 }
