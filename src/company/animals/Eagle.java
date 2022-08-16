@@ -1,7 +1,9 @@
-package animals;
+package company.animals;
 
-public class Eagle extends  Animals{
+import company.Animals;
+
+public class Eagle extends Animals {
     public void fly(){
-        System.out.println("King of heaven");
+        System.out.println("King of heaven Eagle");
     }
 }
